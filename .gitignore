@@ -1,0 +1,5 @@
+*.obj
+*.pdb
+Debug/*
+bin/
+obj/

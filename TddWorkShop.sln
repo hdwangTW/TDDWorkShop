@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessGame", "TddWorkShop\NumberGuessGame.csproj", "{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{AD2D7BBE-1FE3-4F0B-937C-25D6E98AC054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B5AB912E-FDD1-49F2-BC1F-1F8DCD2C3060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessGameTest", "test\NumberGuessGameTest.csproj", "{03DD8020-646B-4A08-8AF5-28F090ED50A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DD8020-646B-4A08-8AF5-28F090ED50A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DD8020-646B-4A08-8AF5-28F090ED50A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DD8020-646B-4A08-8AF5-28F090ED50A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DD8020-646B-4A08-8AF5-28F090ED50A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4736E2B4-2C90-4F8E-8EE1-605F6056A3CF} = {AD2D7BBE-1FE3-4F0B-937C-25D6E98AC054}
+		{03DD8020-646B-4A08-8AF5-28F090ED50A1} = {B5AB912E-FDD1-49F2-BC1F-1F8DCD2C3060}
+	EndGlobalSection
+EndGlobal
